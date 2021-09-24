@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>
+			Post Graduate Admission Form
+		</title>
+	</head>
+	<body bgcolor="gray" text="blue">
+		<h1 align="center"><font face="Old English Text MT" size="15">University of Calcutta</font></h1>
+		<h2 align="center">Admission for Post Graduate Studies</h2>
+		<h4 align="center"><a href="https://www.caluniv.ac.in/">www.caluniv.ac.in</a></h4><br><br>
+		<marquee direction="left"><h2 TEXT="red">PLEASE SUBMIT THE FORM BEFORE DEADLINE!</h2></marquee><br>
+		<p align="center"><b><u>Please fill in the form below:</u></b></p><br>
+		<center>
+			<label for="fname">First Name : </label>
+			<input type="text" id="fname" name="fname"></input><br><br>
+			<label for="lname">Last Name : </label>
+			<input type="text" id="lname" name="lname"></input><br><br>
+			<label for="email">Email address : </label>
+			<input type="text" id="email" name="email"></input><br><br>
+			<label for="gname">Guardian's Name : </label>
+			<input type="text" id="gname" name="gname"></input><br><br>
+			<label for="phno">Phone Number : </label>
+			<input type="numeric" id="phno" name="phno"></input><br><br>
+			Address : <textarea rows="10" cols="30">Address</textarea><br><br>
+			<label for="d.o.b.">Date of Birth : </label>
+			<input type="date" id="d.o.b" name="d.o.b."></input><br><br>
+		</center>
+	</body>
+</html>
