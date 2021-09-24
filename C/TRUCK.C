@@ -1,0 +1,32 @@
+#include<conio.h>
+#include<stdlib.h>
+#include<graphics.h>
+void main()
+{
+	int gdriver=DETECT,gmode,x,y,i,j;
+	initgraph(&gdriver,&gmode,"c:\\turboc3\\bgi");
+	for(i=0;i<700;i++)
+	{
+	rectangle(100+i,250,300+i,350);
+	setfillstyle(HATCH_FILL,BLUE);
+	floodfill(120+i,260,WHITE);
+	rectangle(300+i,300,350+i,350);
+	setfillstyle(HATCH_FILL,RED);
+	floodfill(320+i,320,WHITE);
+	rectangle(350+i,330,360+i,350);
+	setfillstyle(SOLID_FILL,YELLOW);
+	floodfill(355+i,349,WHITE);
+	circle(150+i,370,20);
+	circle(300+i,370,20);
+	line(10,390,750,390);
+	x=getmaxx();y=getmaxy();
+	for(j=0;j<100;j++)
+	{
+		outtextxy(random(x),random(y)-100,"|");
+	}
+	delay(10);
+	cleardevice();
+	}
+	getch();
+	closegraph();
+}

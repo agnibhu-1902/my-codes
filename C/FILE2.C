@@ -1,8 +1,10 @@
 //C program  for storing even and odd digits in separate files
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 	FILE *f,*odd,*even;int n,i,val;
+	clrscr();
 	f=fopen("Integer.txt","w");
 	printf("Enter the limit : ");
 	scanf("%d",&n);
@@ -33,5 +35,6 @@ int main()
 	while((val=getw(even))!=EOF)
 		printf("%d",val);
 	fclose(odd);fclose(even);
+	getch();
 	return 0;
 }
