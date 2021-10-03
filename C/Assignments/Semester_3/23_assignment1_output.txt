@@ -1,0 +1,12 @@
+
+Enter the number of unknown values : 3
+
+Enter the augmented matrix :
+2 3 1 9
+1 2 3 6
+3 1 2 8
+
+The computed values are :
+1.94
+1.61
+0.28
