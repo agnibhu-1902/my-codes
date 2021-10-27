@@ -20,6 +20,14 @@ do
 			break
 		fi
 	done
+	for ((k=i+1;k<n;k++))
+	do
+		if ((${arr[$i]}==${arr[$k]}))
+		then
+			flag=1
+			break
+		fi
+	done
 	if (($flag==0))
 	then
 		echo "${arr[$i]}"
