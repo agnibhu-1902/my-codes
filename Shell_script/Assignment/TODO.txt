@@ -1,0 +1,12 @@
+1.Write a shell script to perform basic floating point arithmetic operations between two nos.
+2.Write a shell script / program to check whether the number is prime or not.
+3.Write a shell script program to check if the Number is a Palindrome or not.
+4.Write a shell script to find a number within an array using binary search.
+5.Write a shell script to sort a set of integer numbers using bubble sort.
+6.Write a shell script to find the frequency of vowels in a given string. String should be taken as input at runtime.
+7.Write a shell script that takes a command line argument and reports on whether it is directory, a file, or something else.
+8.Write a shell script to accept a string in the command line and reverse the same string.
+9.Write a shell script to display a name in abbreviation form using command line arguments.
+10.Develop an interactive script that asks for a word and a file name and then tells how many times that word occurred in the file.
+11. Write a shell script that receives two file names as arguments. It should check whether the two file contents are same or not. If they are the same then the second file should be deleted.
+12. Write a shell script for menu based system to insert records for employees with an employee ID, name, designation, salary in a data file, also display records when necessary. Display salary for the employee asked.

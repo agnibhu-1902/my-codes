@@ -1,0 +1,5 @@
+Employee ID|Name|Designation|Salary
+2315690|David|Game Designer|25000
+2347619|John|Programmer|12000
+9175670|Jane|Graphic artist|25000
+5432178|Mary|Data Analyst|65000
