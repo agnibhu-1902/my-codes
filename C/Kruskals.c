@@ -29,24 +29,24 @@ int main()
   for(i=0; i<n; i++)
     parent[i] = -1;
 	do
-		{
-			printf("\n\tEnter the node pairs (u,v) between which you want an edge: ");
-			scanf("%d%d",&u,&v);
-			printf("\nEnter the corresponding edge weight: ");
-			scanf("%d",&w);
-			(*(*(cost + (u-1)) + (v-1)))=w;
-			(*(*(cost + (v-1)) + (u-1)))=w;
-			printf("\nDo you want to insert more number of edges? (1-yes/0-no)");
-			scanf("%d",&u);	
-		}while(u!=0);
+  {
+    printf("\n\tEnter the node pairs (u,v) between which you want an edge: ");
+    scanf("%d%d",&u,&v);
+    printf("\nEnter the corresponding edge weight: ");
+    scanf("%d",&w);
+    (*(*(cost + (u-1)) + (v-1)))=w;
+    (*(*(cost + (v-1)) + (u-1)))=w;
+    printf("\nDo you want to insert more number of edges? (1-yes/0-no)");
+    scanf("%d",&u);	
+  }while(u!=0);
 	for (i = 0; i < n; i++)
-    {
-      for (j = 0; j < n; j++)
-       {
-          if (*(*(cost + i) + j) == 0)
-          *(*(cost + i) + j) = INF;
-       }
-    }
+  {
+    for (j = 0; j < n; j++)
+      {
+        if (*(*(cost + i) + j) == 0)
+        *(*(cost + i) + j) = INF;
+      }
+  }
 	printf("Your input matrix is:\n");
 	for (i = 0; i < n; i++)
 	{
