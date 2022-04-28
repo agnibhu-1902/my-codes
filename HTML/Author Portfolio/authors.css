@@ -1,0 +1,36 @@
+body
+{
+    background-color: bisque; /* Changes the background color of the HTML webpage to bisque */
+    color: black; /* Changes the text color of the HTML webpage to black */
+    text-align: justify; /* Chages the text alignment of the HTML webpage to justify */
+    font-size: 20px; /* Changes the font size of the HTML webpage to 20 pixels */
+}
+h1
+{
+    text-align: center; /* Chages the text alignment of the h1 tag to center */
+    font-family: Rockwell; /* Changes the font family of the h1 tag to Rockwell */
+}
+h3
+{
+    font-family: Helvetica; /* Changes the font family of the h3 tag to Helvetica */
+}
+q
+{
+    font-family: 'Trebuchet MS'; /* Changes the font family of the q tag to "Trebuchet MS" */
+    color: maroon; /* Changes the text color of the q tag to maroon */
+}
+table
+{
+    font-size: 25px; /* Changes the font size of the table tag to 25 pixels */
+}
+img
+{
+    float: right; /* Wraps the text around the image to the right */
+    width: 350px; /* Sets the image width to 350 pixels */
+    padding: 25px; /* Sets a padding of 25 pixels to the image */
+}
+li
+{
+    font-family: Verdana; /* Changes the font family of the li tag to Verdana */
+    padding: 10px; /* Sets a padding of 10 pixels to the list elements */
+}
