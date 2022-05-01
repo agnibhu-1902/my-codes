@@ -16,21 +16,28 @@ h3
 }
 q
 {
-    font-family: 'Trebuchet MS'; /* Changes the font family of the q tag to "Trebuchet MS" */
+    font-family: 'Trebuchet MS'; /* Changes the font family of the q tag to Trebuchet MS */
     color: maroon; /* Changes the text color of the q tag to maroon */
 }
 table
 {
     font-size: 25px; /* Changes the font size of the table tag to 25 pixels */
 }
-img
+figure
 {
-    float: right; /* Wraps the text around the image to the right */
-    width: 350px; /* Sets the image width to 350 pixels */
-    padding: 25px; /* Sets a padding of 25 pixels to the image */
+    float: right; /* Wraps the text around the figure element to the right */
+    padding: 25px; /* Sets a padding of 25 pixels around the figure element */
+}
+figcaption
+{
+    color: gray; /* Changes the text color of the image caption to gray */
+    font-style: italic; /* Changes the font style of the image caption to italics */
+    padding: 5px; /* Sets a padding of 5 pixels around the image caption */
+    text-align: center; /* Chages the text alignment of the image caption to center */
+    font-family: Papyrus; /* Changes the font family of the image caption to Papyrus */
 }
 li
 {
     font-family: Verdana; /* Changes the font family of the li tag to Verdana */
-    padding: 10px; /* Sets a padding of 10 pixels to the list elements */
+    padding: 10px; /* Sets a padding of 10 pixels around the list elements */
 }
