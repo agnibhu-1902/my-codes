@@ -4,6 +4,7 @@ body
     color: black; /* Changes the text color of the HTML webpage to black */
     text-align: justify; /* Chages the text alignment of the HTML webpage to justify */
     font-size: 20px; /* Changes the font size of the HTML webpage to 20 pixels */
+    padding: 10px; /* Sets a padding of 10px to the body tag. */
 }
 h1
 {
