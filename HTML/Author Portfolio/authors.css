@@ -1,0 +1,276 @@
+body
+{
+    background-image: url("book.jpeg"); /* Sets a background image to the body tag */
+    background-size: cover; /* Stretches the image to fill the entire content area */
+    background-attachment: fixed; /* Fixes the image in position so that it will not scroll with the rest of the webpage */
+    color: black; /* Changes the text colour of the HTML webpage to black */
+    text-align: justify; /* Chages the text alignment of the HTML webpage to justify */
+    font-size: 20px; /* Changes the font size of the HTML webpage to 20 pixels */
+}
+.title
+{
+    padding: 35px; /* Sets a padding of 10 pixels around the HTML webpage body */
+}
+h1
+{
+    text-align: center; /* Chages the text alignment of the h1 tag to center */
+    font-family: Rockwell; /* Changes the font family of the h1 tag to Rockwell */
+    text-shadow: 3px 3px slategray; /* Changes the text shadow of the h1 tag to slategray */
+}
+h3
+{
+    font-family: 'Lucida Sans Typewriter', monospace; /* Changes the font family of the h3 tag to monospace */
+}
+p
+{
+    text-shadow: 1px 1px rosybrown; /* Gives a rosybrown shadow to the text in the p tag */
+}
+q
+{
+    font-family: 'URW Chancery L', cursive; /* Changes the font family of the q tag to URW Chancery L */
+    color: maroon; /* Changes the text colour of the q tag to maroon */
+    font-size: 23px; /* Changes the font size of the q element to 23 pixels */
+}
+table
+{
+    font-size: 25px; /* Changes the font size of the table tag to 25 pixels */
+}
+figure
+{
+    float: right; /* Wraps the text around the figure element to the right */
+    padding: 25px; /* Sets a padding of 25 pixels around the figure element */
+}
+img
+{
+    border: solid slategray 2px; /* Sets a border of slategray colour with size 2 pixels around the image */
+    filter: drop-shadow(10px 10px 10px gray); /* Adds a gray shadow around the image */
+}
+a
+{
+    color: purple; /* Sets a colour of purple to the anchor tag */
+    font-weight: bold; /* Changes the font weight of the anchor tag to bold */
+    text-shadow: 1px 1px gray; /* Gives a gray shadow to the text in the a tag */
+}
+a:hover
+{
+    color: darkolivegreen; /* Changes the colour of the hyperlink to dark olive green when the user hovers on it */
+}
+figcaption
+{
+    color: blue; /* Changes the text colour of the image caption to blue */
+    font-style: italic; /* Changes the font style of the image caption to italics */
+    padding: 5px; /* Sets a padding of 5 pixels around the image caption */
+    text-align: center; /* Chages the text alignment of the image caption to center */
+    font-family: Papyrus; /* Changes the font family of the image caption to Papyrus */
+}
+li
+{
+    font-family: Verdana; /* Changes the font family of the li tag to Verdana */
+    padding: 10px; /* Sets a padding of 10 pixels around the list elements */
+}
+#home
+{
+    background-image: url("paper.jpeg"); /* Sets a background image to the tag with id home */
+    background-size: cover; /* Stretches the image to fill the entire content area */
+    background-attachment: fixed; /* Fixes the image in position so that it will not scroll with the rest of the webpage */
+    color: black; /* Sets text colour to black */
+    text-align: center; /* Aligns the text to the center */
+    font-size: 20px; /* Sets font size to 20 pixels */
+    padding-top: 50px; /* Sets the top padding to 50 pixels */
+}
+#home h1
+{
+    font-family: 'Old English Text MT'; /* Changes the font family of the h1 tag in id home to 'Old English Text MT' */
+    text-shadow: 3px 3px chocolate; /* Gives a chocolate coloured text shadow of size 3 pixels */
+}
+.content
+{
+    padding: 50px; /* Sets a padding of 50px around the content class */
+    text-shadow: 1px 1px rosybrown; /* Gives a rosybrown shadow to the text in the content class */
+}
+.main
+{
+    padding: 35px; /* Sets a padding of 35px around the main class */
+}
+.list
+{
+    color: crimson; /* Sets the text colour to crimson in the list class */
+    text-shadow: 1px 1px gray; /* Gives a gray shadow to the text in the list class */
+    font-size: 18px; /* Changes the font size of the list class to 18 pixels */
+}
+.list:hover
+{
+    color: green; /* Changes the text colour in the list class to green when the user hovers over it */
+}
+.works, th, .data
+{
+    text-align: left; /* Changes the text alignment to center of the works class, th tag and the data class */
+    border: 2px solid; /* Assigns a solid border of size 2 pixels to the elements */
+    border-collapse: collapse; /* Collapses the element borders to a single border */
+    padding: 15px; /* Sets a padding of 15 pixels around the elements */
+    font-family: Arial; /* Changes the font family to Arial */
+    font-size: 20px; /* Changes the font size to 20 pixels */
+    text-shadow: 1px 1px rosybrown; /* Sets a rosybrown text shadow to the elements */
+}
+th
+{
+    background-image: linear-gradient(chocolate, white); /* Changs the colour of the th tag contents gradually from chocolate to white */
+}
+.works
+{
+    background-color: rgba(255, 255, 255, 55%); /* Assigns a white background colour to the works class with an opacity of 55% */
+    filter: drop-shadow(10px 10px 10px gray); /* Gives a gray shadow to the table content */
+}
+.imglink
+{
+    width: 150px; /* Sets a width of 150 pixels to the imglink class */
+    height: 200px; /* Sets a height of 200 pixels to the imglink class */
+    border-radius: 100%; /* Sets a border radius of 100% to the imglink class */
+    filter: drop-shadow(10px 10px 10px beige); /* Sets a beige drop shadow imglink class elements */
+    transition: width 0.5s, height 0.5s; /* Gives a transition effect for 0.5 seconds when the user hovers over the element */
+}
+.imglink:hover
+{
+    width: 150px; /* Changes the width to 150 pixels when the user hovers over the imglink class elements */
+    height: 170px; /* Changes the height to 170 pixels when the user hovers over the imglink class elements */
+}
+.row
+{
+    display: flex; /* Changes the display to Flexbox */
+    flex-wrap: wrap; /* Flexible items will wrap onto multiple lines */
+    padding: 0 4px; /* Sets a right padding of 4 pixels */
+}
+.column
+{
+    flex: 50%; /* Sizes the flex item to 50% */
+    padding: 0 4px; /* Sets a right padding of 4 pixels */
+}
+.column img
+{
+    margin-top: 8px; /* Sets the top margin to 8 pixels of the img element in column class */
+    vertical-align: middle; /* Sets the vertical alignment to middle */
+    height: 280px; /* Sets the image height to 200 pixels */
+    width: 190px; /* Sets the image width to 100 pixels */
+}
+.column img:hover
+{
+    opacity: 0.8; /* Changes the opacity of the image to 0.8 when the user hovers over it */
+}
+.button, .home
+{
+    background-color: palegreen; /* Sets a background colour of the button and home class to palegreen */
+    border: 2px solid gray; /* Sets a solid gray border of size 2 pixels */
+    color: black; /* Sets the text colour to black */
+    padding: 20px; /* Sets a 20 pixels padding to both the class */
+    text-align: center; /* Center align the text */
+    text-decoration: none; /* Sets the text-decoration property to none. Will not give any decoration to the text. */
+    display: inline-block; /* Sets the display property to inline-block. Elements will appear side-by-side. */
+    font-size: 16px; /* Changes the font size to 16 pixels */
+    font-weight: bold; /* Changes the font weight to bold */
+    margin: 4px 2px; /* Sets a 4 pixels top and 2 pixels right margin */
+    cursor: pointer; /* Changes the cursor to a pointing hand */
+    margin-right: 35px; /* Sets the right margin to 35 pixels */
+    border-radius: 8px; /* Sets the border radius to 8 pixels */
+    transition: 0.5s; /* Sets a transition duration for 0.5 seconds */
+    filter: drop-shadow(10px 10px 10px gray); /* Gives a gray shadow to the class elements */
+}
+.home:hover
+{
+    background-color: orangered; /* Changes the background colour of the home class to orangered when user hovers over it */
+    color: white; /* Changes the text colour to white */
+}
+.button:hover
+{
+    background-color: slateblue; /* Changes the background colour of the button class to slateblue when user hovers over it */
+    color: white; /* Changes the text colour to white */
+}
+#btn-forbidden
+{
+    cursor: not-allowed; /* Disables the clickable button */
+    opacity: 0.5; /* Changes the button opacity to 0.5 */
+}
+.header img
+{
+    width: 100%; /* Changes the width of the header class img element to 100% */
+    position: relative; /* Position the element relative to its normal position */
+}
+.header .overlay
+{
+    font-size: 75px; /* Changes the font size of the overlay class to 75 pixels */
+    font-weight: bold; /* Changes the font weight of the overlay class to bold */
+    font-family: Helvetica; /* Changes the font family of the overlay class to Helvetica */
+    padding-top: 100px; /* Changes the top padding of the overlay class to 140 pixels */
+}
+.header
+{
+    height: fit-content; /* States that the box will use the available space, but never more than max-content. */
+    width: 100%; /* States the header class content width to 100% */
+    text-align: center; /* Center aligns the text */
+    padding-top: 100px; /* Sets a top padding of 100 pixels */
+    padding-bottom: 105px; /* Sets a bottom padding of 105 pixels */
+    color: white; /* Sets the text colour to white */
+    text-shadow: 3px 3px black; /* Sets a black shadow of size 3 pixels to the text */
+    overflow: hidden; /* Clip the content if it overflows */
+    background: #C04848;  /* Fallback for old browsers */
+}
+.bg1
+{
+    background: linear-gradient(rgb(0,0,0,0.85), rgb(105,105,105,0.75)), url("tagoretitle.jpg");  /* Supported on Chrome 10-25, Safari 5.1-6 */
+    background-size: cover; /* Fills the image to the entire section */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Fix the background image in position so that it will not scroll with the rest of the content */
+}
+.bg2
+{
+    background: linear-gradient(rgb(0,0,0,0.85), rgb(105,105,105,0.75)), url("narayantitle.jpg");  /* Supported on Chrome 10-25, Safari 5.1-6 */
+    background-size: cover; /* Fills the image to the entire section */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Fix the background image in position so that it will not scroll with the rest of the content */
+}
+.bg3
+{
+    background: linear-gradient(rgb(0,0,0,0.85), rgb(105,105,105,0.75)), url("naidutitle.jpg");  /* Supported on Chrome 10-25, Safari 5.1-6 */
+    background-size: cover; /* Fills the image to the entire section */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Fix the background image in position so that it will not scroll with the rest of the content */
+}
+.bg4
+{
+    background: linear-gradient(rgb(0,0,0,0.85), rgb(105,105,105,0.75)), url("bondtitle.jpg");  /* Supported on Chrome 10-25, Safari 5.1-6 */
+    background-size: cover; /* Fills the image to the entire section */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Fix the background image in position so that it will not scroll with the rest of the content */
+}
+.bg5
+{
+    background: linear-gradient(rgb(0,0,0,0.85), rgb(105,105,105,0.75)), url("devititle.jpg");  /* Supported on Chrome 10-25, Safari 5.1-6 */
+    background-size: cover; /* Fills the image to the entire section */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Fix the background image in position so that it will not scroll with the rest of the content */
+}
+.header #subtitle
+{
+    font-size: 35px; /* Changes the font size to 35 pixels of the header class element with id subtitle */
+    font-family: cursive; /* Changes the font family to cursive */
+}
+.header hr
+{
+    animation: fadeIn linear 2s; /* Sets a text fade in animation for 2 seconds for the header class hr element */
+}
+.header #title
+{
+    opacity: 0; /* Sets the opacity to zero for the header class element with id title */
+    animation: fadeIn linear 2s forwards; /* Sets a text fade in animation for 2 seconds for the header class title id element */
+    animation-delay: 2s; /* Pauses for 2 seconds before the animation starts */
+}
+.header #subtitle
+{
+    opacity: 0; /* Sets the opacity to zero for the header class element with id subtitle */
+    animation: fadeIn linear 3s forwards; /* Sets a text fade in animation for 2 seconds for the header class subtitle id element */
+    animation-delay: 4s; /* Pauses for 4 seconds before the animation starts */
+}
+@keyframes fadeIn /* Defines fadeIn that changes the text opacity from 0% to 100% */
+{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
