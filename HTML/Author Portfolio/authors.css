@@ -85,12 +85,12 @@ li
 }
 .content
 {
-    padding: 50px; /* Sets a padding of 50px around the content class */
+    padding: 50px; /* Sets a padding of 50 pixels around the content class */
     text-shadow: 1px 1px rosybrown; /* Gives a rosybrown shadow to the text in the content class */
 }
 .main
 {
-    padding: 35px; /* Sets a padding of 35px around the main class */
+    padding: 35px; /* Sets a padding of 35 pixels around the main class */
 }
 .list
 {
@@ -149,8 +149,8 @@ th
 {
     margin-top: 8px; /* Sets the top margin to 8 pixels of the img element in column class */
     vertical-align: middle; /* Sets the vertical alignment to middle */
-    height: 280px; /* Sets the image height to 200 pixels */
-    width: 190px; /* Sets the image width to 100 pixels */
+    height: 280px; /* Sets the image height to 280 pixels */
+    width: 190px; /* Sets the image width to 190 pixels */
 }
 .column img:hover
 {
@@ -199,7 +199,7 @@ th
     font-size: 75px; /* Changes the font size of the overlay class to 75 pixels */
     font-weight: bold; /* Changes the font weight of the overlay class to bold */
     font-family: Helvetica; /* Changes the font family of the overlay class to Helvetica */
-    padding-top: 100px; /* Changes the top padding of the overlay class to 140 pixels */
+    padding-top: 100px; /* Changes the top padding of the overlay class to 100 pixels */
 }
 .header
 {
