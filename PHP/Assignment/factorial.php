@@ -1,14 +1,11 @@
 <?php
-    function factorial($n)
-    {
-        if($n == 0)
-            return 1;
-        else
-            return $n * factorial($n - 1);
-    }
-    for($i = 0; $i <= 10; $i++)
-    {
-        $res = factorial($i);
-        echo nl2br("The factorial of $i is $res.\n");
-    }
+function fact($n)
+{
+    if ($n == 0)
+        return 1;
+    else
+        return $n * fact($n - 1);
+}
+$n = 5;
+echo "The factorial of $n is " . fact($n) . ".";
 ?>
