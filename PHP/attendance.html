@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks</title>
+</head>
+<body>
+    <form method="post" action="attendance.php">
+        <label for="marks">Enter marks: </label>
+        <input type="number" min="0" id="marks" name="marks">
+        <br><br>
+        <input type="radio" id="full" name="attendance" value="full">
+        <label for="full">100% attendance</label>
+        <br>
+        <input type="radio" id="half" name="attendance" value="half">
+        <label for="half">50% attendance</label>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
