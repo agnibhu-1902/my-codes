@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <cassert>
 using namespace std;
 
 class Circle
@@ -18,7 +19,13 @@ public:
 Circle ::Circle(float rad)
     : radius(rad)
 {
-    cout << "Object created and initialised." << endl;
+    if(radius < 0)
+    {
+        cout << "The circle cannot be created.\nThe program is aborted." << endl;
+        assert(false);
+    }
+    else
+        cout << "Object created and initialised." << endl;
 }
 Circle ::~Circle()
 {
