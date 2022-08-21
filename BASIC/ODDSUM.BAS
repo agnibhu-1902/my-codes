@@ -7,8 +7,3 @@
 70 NEXT P
 80 PRINT S
 90 END
-
-
-
-
-
