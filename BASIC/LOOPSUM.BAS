@@ -6,4 +6,3 @@
 60 NEXT I
 70 PRINT S
 80 END
-
