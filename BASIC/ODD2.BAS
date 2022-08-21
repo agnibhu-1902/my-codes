@@ -1,0 +1,9 @@
+10 CLS : S = 0
+20 INPUT N
+30 FOR I = 1 TO N
+40 D = I MOD 2
+50 IF D = 1 THEN S = S + I
+60 NEXT I
+70 PRINT S
+80 END
+

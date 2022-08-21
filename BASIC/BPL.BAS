@@ -1,0 +1,6 @@
+10 CLS
+20 INPUT N
+30 P = N ^ 2
+40 PRINT P
+50 END
+

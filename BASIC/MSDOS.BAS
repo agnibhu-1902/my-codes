@@ -1,0 +1,11 @@
+10 CLS
+20 INPUT "BASE x:", X
+30 INPUT "POWER:", N
+40 P = 1: F = 1
+50 WHILE P <= N
+60 F = F * X
+70 P = P + 1
+80 WEND
+90 PRINT "RESULT ="; F
+100 END
+

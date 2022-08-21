@@ -1,0 +1,14 @@
+10 CLS
+20 INPUT H
+30 P = 1
+40 WHILE P <= H
+50 M = 1
+60 WHILE M <= P
+70 PRINT "* ";
+80 M = M + 1
+90 WEND
+91 PRINT
+100 P = P + 1
+110 WEND
+120 END
+

@@ -1,0 +1,7 @@
+10 CLS
+20 INPUT "ENTER 3 NUMBERS:", A, B, C
+30 P = A * B * C
+40 PRINT P
+50 END
+
+

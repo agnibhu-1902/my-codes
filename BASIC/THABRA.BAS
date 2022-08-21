@@ -1,0 +1,9 @@
+10 CLS
+20 S = 0
+30 INPUT N
+40 FOR I = 1 TO N
+50 S = S + I
+60 NEXT I
+70 PRINT S
+80 END
+

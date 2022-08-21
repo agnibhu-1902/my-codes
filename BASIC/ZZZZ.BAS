@@ -1,0 +1,9 @@
+10 CLS
+20 S = 0
+30 INPUT Z
+40 FOR P = 1 TO Z
+50 S = S + 1 / (P ^ 2)
+60 NEXT P
+70 PRINT S
+80 END
+

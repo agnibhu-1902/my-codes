@@ -1,0 +1,6 @@
+10 CLS
+20 INPUT "ENTER 4 NUMBERS:", A, B, C, D
+30 P = A + B + C + D
+40 PRINT P
+50 END
+
