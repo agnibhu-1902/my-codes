@@ -5,7 +5,7 @@ int main(void)
     int ch;
     do
     {
-        cout << "===== MENU =====\n1. Person infofrmation\n2. Student information\n3.Exit\n\nEnter choice: ";
+        cout << "===== MENU =====\n1. Person infofrmation\n2. Student information\n3. Exit\n\nEnter choice: ";
         cin >> ch;
         long id; double gp;
         switch (ch)
