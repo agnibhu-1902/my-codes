@@ -15,9 +15,7 @@ struct node *start = NULL;
 void display(void);
 int main()
 {
-    int n, ch, nbr; 
-    struct node *p, *ptr; 
-    struct neigh *s, *nptr;
+    int n, ch, nbr; struct node *p, *ptr; struct neigh *s, *nptr;
     if(p == NULL)
     {
         printf("Not enough memory.\n");
@@ -77,8 +75,7 @@ int main()
 }
 void display()
 {
-    struct node *ptr; 
-    struct neigh *nptr;
+    struct node *ptr; struct neigh *nptr;
     if(start == NULL)
     {
         printf("\nList is empty");
