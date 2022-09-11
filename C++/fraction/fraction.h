@@ -11,6 +11,8 @@ private:
 public:
     // Constructor and destructor
     Fraction(int, int);
+    Fraction(int);
+    Fraction(double);
     Fraction();
     ~Fraction();
     // Accessors
@@ -36,6 +38,9 @@ public:
     friend const Fraction operator-(const Fraction&, const Fraction&);
     friend const Fraction operator*(const Fraction&, const Fraction&);
     friend const Fraction operator/(const Fraction&, const Fraction&);
+    // Type conversion operators
+    operator double();
+    operator int();
 };
 
 #endif

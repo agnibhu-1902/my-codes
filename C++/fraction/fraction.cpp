@@ -9,6 +9,21 @@ Fraction ::Fraction(int num, int den)
 {
     normalize();
 }
+Fraction ::Fraction(int n)
+    : numer(n), denom(1)
+{
+}
+Fraction ::Fraction(double value)
+{
+    denom = 1;
+    while ((value - static_cast<int>(value)) > 0.0)
+    {
+        value *= 10.0;
+        denom *= 10;
+    }
+    numer = static_cast<int>(value);
+    normalize();
+}
 Fraction ::Fraction()
     : numer(1), denom(1)
 {
@@ -165,4 +180,14 @@ const Fraction operator/(const Fraction& left, const Fraction& right)
     int newDenom = left.denom * right.numer;
     Fraction result(newNumer, newDenom);
     return result;
+}
+Fraction :: operator double()
+{
+    double num = static_cast<double>(numer);
+    return num / denom;
+}
+Fraction :: operator int()
+{
+    int num = numer / denom;
+    return num;
 }
