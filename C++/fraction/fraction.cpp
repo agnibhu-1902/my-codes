@@ -63,3 +63,74 @@ int Fraction ::gcd(int numer, int denom) const
     }
     return gcd;
 }
+const Fraction Fraction :: operator+() const
+{
+    Fraction temp(+numer, denom);
+    return temp;
+}
+const Fraction Fraction :: operator-() const
+{
+    Fraction temp(-numer, denom);
+    return temp;
+}
+Fraction& Fraction :: operator++()
+{
+    numer = numer + denom;
+    this -> normalize();
+    return *this;
+}
+Fraction& Fraction :: operator--()
+{
+    numer = numer - denom;
+    this -> normalize();
+    return *this;
+}
+const Fraction Fraction :: operator++(int dummy)
+{
+    Fraction temp(numer, denom);
+    ++(*this);
+    return temp;
+}
+const Fraction Fraction :: operator--(int dummy)
+{
+    Fraction temp(numer, denom);
+    --(*this);
+    return temp;
+}
+Fraction& Fraction :: operator=(const Fraction& right)
+{
+    if(this != &right)
+    {
+        numer = right.numer;
+        denom = right.denom;
+    }
+    return *this;
+}
+Fraction& Fraction :: operator+=(const Fraction& right)
+{
+    numer = numer * right.denom + denom * right.numer;
+    denom = denom * right.denom;
+    normalize();
+    return *this;
+}
+Fraction& Fraction :: operator-=(const Fraction& right)
+{
+    numer = numer * right.denom - denom * right.numer;
+    denom = denom * right.denom;
+    normalize();
+    return *this;
+}
+Fraction& Fraction :: operator*=(const Fraction& right)
+{
+    numer = numer * right.numer;
+    denom = denom * right.denom;
+    normalize();
+    return *this;
+}
+Fraction& Fraction :: operator/=(const Fraction& right)
+{
+    numer = numer * right.denom;
+    denom = denom * right.numer;
+    normalize();
+    return *this;
+}

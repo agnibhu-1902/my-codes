@@ -13,10 +13,21 @@ public:
     Fraction(int, int);
     ~Fraction();
     //Accessors
+    const Fraction operator+() const;
+    const Fraction operator-() const;
     int getNumer() const;
     int getDenom() const;
     void print() const;
     //Mutators
+    Fraction& operator++();
+    Fraction& operator--();
+    const Fraction operator++(int);
+    const Fraction operator--(int);
+    Fraction& operator=(const Fraction&);
+    Fraction& operator+=(const Fraction&);
+    Fraction& operator-=(const Fraction&);
+    Fraction& operator*=(const Fraction&);
+    Fraction& operator/=(const Fraction&);
     void setNumer(int);
     void setDenom(int);
 };
