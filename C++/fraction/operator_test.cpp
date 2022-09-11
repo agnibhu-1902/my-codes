@@ -20,12 +20,12 @@ int main(void)
     Fraction fraction2(numer, denom);
     {
         Fraction disp(+fraction1);
-        cout << "\n+ operator test: ";
+        cout << "\nunary + operator test: ";
         disp.print();
     }
     {
         Fraction disp(-fraction1);
-        cout << "- operator test: ";
+        cout << "unary - operator test: ";
         disp.print();
     }
     {
@@ -72,6 +72,30 @@ int main(void)
         Fraction disp(fraction1/=fraction2);
         cout << "/= operator test: ";
         disp.print();
+    }
+    {
+        Fraction frac;
+        frac = fraction1 + fraction2;
+        cout << "binary + operator test: ";
+        frac.print();
+    }
+    {
+        Fraction frac;
+        frac = fraction1 - fraction2;
+        cout << "binary - operator test: ";
+        frac.print();
+    }
+    {
+        Fraction frac;
+        frac = fraction1 * fraction2;
+        cout << "binary * operator test: ";
+        frac.print();
+    }
+    {
+        Fraction frac;
+        frac = fraction1 / fraction2;
+        cout << "binary / operator test: ";
+        frac.print();
     }
     return 0;
 }

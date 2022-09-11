@@ -9,16 +9,17 @@ private:
     int gcd(int, int) const;
     void normalize();
 public:
-    //Constructor and destructor
+    // Constructor and destructor
     Fraction(int, int);
+    Fraction();
     ~Fraction();
-    //Accessors
+    // Accessors
     const Fraction operator+() const;
     const Fraction operator-() const;
     int getNumer() const;
     int getDenom() const;
     void print() const;
-    //Mutators
+    // Mutators
     Fraction& operator++();
     Fraction& operator--();
     const Fraction operator++(int);
@@ -30,6 +31,11 @@ public:
     Fraction& operator/=(const Fraction&);
     void setNumer(int);
     void setDenom(int);
+    // Friend functions
+    friend const Fraction operator+(const Fraction&, const Fraction&);
+    friend const Fraction operator-(const Fraction&, const Fraction&);
+    friend const Fraction operator*(const Fraction&, const Fraction&);
+    friend const Fraction operator/(const Fraction&, const Fraction&);
 };
 
 #endif

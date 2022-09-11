@@ -9,6 +9,10 @@ Fraction ::Fraction(int num, int den)
 {
     normalize();
 }
+Fraction ::Fraction()
+    : numer(1), denom(1)
+{
+}
 Fraction ::~Fraction()
 {
 }
@@ -133,4 +137,32 @@ Fraction& Fraction :: operator/=(const Fraction& right)
     denom = denom * right.numer;
     normalize();
     return *this;
+}
+const Fraction operator+(const Fraction& left, const Fraction& right)
+{
+    int newNumer = left.numer * right.denom + right.numer * left.denom;
+    int newDenom = left.denom * right.denom;
+    Fraction result(newNumer, newDenom);
+    return result;
+}
+const Fraction operator-(const Fraction& left, const Fraction& right)
+{
+    int newNumer = left.numer * right.denom - right.numer * left.denom;
+    int newDenom = left.denom * right.denom;
+    Fraction result(newNumer, newDenom);
+    return result;
+}
+const Fraction operator*(const Fraction& left, const Fraction& right)
+{
+    int newNumer = left.numer * right.numer;
+    int newDenom = left.denom * right.denom;
+    Fraction result(newNumer, newDenom);
+    return result;
+}
+const Fraction operator/(const Fraction& left, const Fraction& right)
+{
+    int newNumer = left.numer * right.denom;
+    int newDenom = left.denom * right.numer;
+    Fraction result(newNumer, newDenom);
+    return result;
 }
