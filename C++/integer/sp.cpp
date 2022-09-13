@@ -7,6 +7,7 @@ SP :: SP(int* p)
 
 SP :: ~SP()
 {
+    delete ptr;
 }
 
 int& SP :: operator*() const
