@@ -7,3 +7,6 @@ end
 for index, value in pairs(tbl) do
     print(index, value)
 end
+
+tbl = {name = 'Mike', age = 12}
+print(tbl["name"], tbl["age"])
