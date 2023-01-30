@@ -40,6 +40,7 @@ def maxfiterimage(pimg):
                         maximum = pimg[k, l]
             maxfilterimg[i - 1, j - 1] = maximum
     return maxfilterimg
+
 def minfilterimage(pimg):
     h, w = pimg.shape
     minfilterimg = np.zeros((h, w), dtype = np.uint8)
