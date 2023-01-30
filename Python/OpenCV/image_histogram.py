@@ -3,20 +3,24 @@ import matplotlib.pyplot as plt
 import cv2 as cv
 
 img = cv.imread('Photos/landscape.jpg', 0)
-hist = np.zeros(256)
+hist = np.zeros(256, dtype = 'uint32')
 h, w = img.shape
 
 for i in range(h):
     for j in range(w):
         hist[img[i, j]] += 1
 
-fig, axs = plt.subplots(1, 2)
-x = np.arange(0, 256)
-axs[0].plot(x, hist)
-axs[0].set_xlabel('X')
-axs[0].set_ylabel('Y')
-axs[0].set_title('Histogram')
-axs[1].imshow(img, cmap = 'gray')
-axs[1].axis('off')
-axs[1].set_title('Image')
-plt.show()
+fig = plt.figure(figsize = (18, 18))
+pltX, pltY = 1, 3
+fig.add_subplot(pltX, pltY, 1)
+plt.imshow(img, cmap = 'gray')
+plt.axis('off')
+plt.title('Original Image')
+fig.add_subplot(pltX, pltY, 2)
+plt.plot(np.arange(len(hist)), hist)
+plt.title('Image Plot')
+fig.add_subplot(pltX, pltY, 3)
+plt.bar(np.arange(len(hist)), hist)
+plt.title('Image Histogram')
+fig.show()
+plt.waitforbuttonpress()
