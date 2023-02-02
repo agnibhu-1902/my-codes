@@ -1,0 +1,5 @@
+str = input('Enter a string: ')
+list = str.split()
+list.sort(key = len)
+print('Longest word:', list[-1])
+print('Longest word length:', len(list[-1]))

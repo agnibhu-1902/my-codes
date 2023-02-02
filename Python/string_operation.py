@@ -1,0 +1,6 @@
+s1 = input('Enter 1st string: ')
+s2 = input('Enter 2nd string: ')
+s1 = ''.join(reversed(s1))
+s2 = s2.upper()
+print(s1)
+print(s2)

@@ -1,0 +1,5 @@
+sen = input('Enter a sentence: ')
+sen = sen.split()
+sen.reverse()
+rev_words = ' '.join(sen)
+print('Reversed sentence:', rev_words)
