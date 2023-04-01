@@ -1,0 +1,3 @@
+% ...
+fact(0, 1).
+fact(X, Y) :- X > 0, X1 is X - 1, fact(X1, F1), Y is F1 * X.
