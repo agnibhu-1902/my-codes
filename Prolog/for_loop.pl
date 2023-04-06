@@ -1,0 +1,3 @@
+% ...
+loop(Last, Last) :- write('The value is '), write(Last).
+loop(First, Last) :- write('The value is '), write(First), nl, Next is First + 1, loop(Next, Last).
