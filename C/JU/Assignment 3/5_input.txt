@@ -1,0 +1,100 @@
+72347554557, To Kill a Mockingbird, Harper Lee, 250, Yes
+72347554558, 1984, George Orwell, 220, No
+72347554559, Pride and Prejudice, Jane Austen, 180, Yes
+72347554560, The Great Gatsby, F. Scott Fitzgerald, 200, No
+72347554561, One Hundred Years of Solitude, Gabriel Garcia Marquez, 300, Yes
+72347554562, The Catcher in the Rye, J.D. Salinger, 240, No
+72347554563, Lord of the Rings, J.R.R. Tolkien, 350, Yes
+72347554564, Harry Potter and the Sorcerer's Stone, J.K. Rowling, 280, No
+72347554565, The Da Vinci Code, Dan Brown, 260, Yes
+72347554566, The Hobbit, J.R.R. Tolkien, 210, No
+72347554567, Go Set a Watchman, Harper Lee, 270, No
+72347554568, Animal Farm, George Orwell, 190, Yes
+72347554569, Sense and Sensibility, Jane Austen, 200, No
+72347554570, Tender Is the Night, F. Scott Fitzgerald, 240, Yes
+72347554571, Love in the Time of Cholera, Gabriel Garcia Marquez, 320, No
+72347554572, Franny and Zooey, J.D. Salinger, 260, Yes
+72347554573, The Two Towers, J.R.R. Tolkien, 330, No
+72347554574, Harry Potter and the Chamber of Secrets, J.K. Rowling, 300, Yes
+72347554575, Angels & Demons, Dan Brown, 280, No
+72347554576, The Silmarillion, J.R.R. Tolkien, 220, Yes
+72347554577, The Hunger Games, Suzanne Collins, 270, No
+72347554578, The Road, Cormac McCarthy, 230, Yes
+72347554579, The Girl with the Dragon Tattoo, Stieg Larsson, 290, No
+72347554580, The Alchemist, Paulo Coelho, 200, Yes
+72347554581, The Shining, Stephen King, 260, No
+72347554582, The Fault in Our Stars, John Green, 180, Yes
+72347554583, The Hitchhiker's Guide to the Galaxy, Douglas Adams, 210, No
+72347554584, Brave New World, Aldous Huxley, 240, Yes
+72347554585, Gone with the Wind, Margaret Mitchell, 320, No
+72347554586, A Song of Ice and Fire, George R.R. Martin, 350, Yes
+72347554587, The Martian, Andy Weir, 280, No
+72347554588, The Kite Runner, Khaled Hosseini, 250, Yes
+72347554589, The Chronicles of Narnia, C.S. Lewis, 300, No
+72347554590, The Color Purple, Alice Walker, 220, Yes
+72347554591, The Secret Life of Bees, Sue Monk Kidd, 240, No
+72347554592, The Old Man and the Sea, Ernest Hemingway, 190, Yes
+72347554593, The Joy Luck Club, Amy Tan, 210, No
+72347554595, The Glass Castle, Jeanette Walls, 270, No
+72347554596, The Help, Kathryn Stockett, 260, Yes
+72347554608, Crime and Punishment, Fyodor Dostoevsky, 250, No
+72347554609, The Shadow of the Wind, Carlos Ruiz Zafón, 280, Yes
+72347554610, Memoirs of a Geisha, Arthur Golden, 220, No
+72347554611, The Book Thief, Markus Zusak, 240, Yes
+72347554612, The Master and Margarita, Mikhail Bulgakov, 260, No
+72347554613, The Name of the Rose, Umberto Eco, 270, Yes
+72347554614, The Wind-Up Bird Chronicle, Haruki Murakami, 290, No
+72347554615, The Count of Monte Cristo, Alexandre Dumas, 310, Yes
+72347554616, The God of Small Things, Arundhati Roy, 230, No
+72347554618, Chronicle of a Death Foretold, Gabriel Garcia Marquez, 260, No
+72347554619, Autumn of the Patriarch, Gabriel Garcia Marquez, 280, Yes
+72347554620, Of Love and Other Demons, Gabriel Garcia Marquez, 240, No
+72347554621, Strange Pilgrims, Gabriel Garcia Marquez, 270, Yes
+72347554622, In Evil Hour, Gabriel Garcia Marquez, 230, No
+72347554623, Leaf Storm and Other Stories, Gabriel Garcia Marquez, 250, Yes
+72347554624, No One Writes to the Colonel, Gabriel Garcia Marquez, 210, No
+72347554625, Eyes of a Blue Dog, Gabriel Garcia Marquez, 200, Yes
+72347554626, Big Mama's Funeral, Gabriel Garcia Marquez, 190, No
+72347554637, The Brothers Karamazov, Fyodor Dostoevsky, 270, Yes
+72347554638, The Night Circus, Erin Morgenstern, 290, No
+72347554639, Never Let Me Go, Kazuo Ishiguro, 240, Yes
+72347554640, The Goldfinch, Donna Tartt, 310, No
+72347554641, The Girl on the Train, Paula Hawkins, 280, Yes
+72347554642, The Pillars of the Earth, Ken Follett, 260, No
+72347554643, The Road to Character, David Brooks, 230, Yes
+72347554644, The Silent Patient, Alex Michaelides, 250, No
+72347554645, The Art of Racing in the Rain, Garth Stein, 220, Yes
+72347554646, The Miniaturist, Jessie Burton, 200, No
+72347554647, The Picture of Dorian Gray, Oscar Wilde, 270, Yes
+72347554648, The Handmaid's Tale, Margaret Atwood, 290, No
+72347554649, Sapiens: A Brief History of Humankind, Yuval Noah Harari, 240, Yes
+72347554650, The Martian, Andy Weir, 310, No
+72347554651, The Nightingale, Kristin Hannah, 280, Yes
+72347554653, The Road, Cormac McCarthy, 230, Yes
+72347554654, A Man Called Ove, Fredrik Backman, 250, No
+72347554655, Educated, Tara Westover, 220, Yes
+72347554656, The Help, Kathryn Stockett, 200, No
+72347554667, Midnight's Children, Salman Rushdie, 270, Yes
+72347554668, The God of Small Things, Arundhati Roy, 290, No
+72347554669, The Namesake, Jhumpa Lahiri, 240, Yes
+72347554670, Shantaram, Gregory David Roberts, 310, No
+72347554671, Train to Pakistan, Khushwant Singh, 280, Yes
+72347554672, The White Tiger, Aravind Adiga, 260, No
+72347554673, The Inheritance of Loss, Kiran Desai, 230, Yes
+72347554674, The Guide, R.K. Narayan, 250, No
+72347554675, A Suitable Boy, Vikram Seth, 220, Yes
+72347554676, The Immortals of Meluha, Amish Tripathi, 200, No
+72347554678, The God of Small Things, Arundhati Roy, 290, No
+72347554679, The Namesake, Jhumpa Lahiri, 240, Yes
+72347554680, Shantaram, Gregory David Roberts, 310, No
+72347554681, Train to Pakistan, Khushwant Singh, 280, Yes
+72347554682, The White Tiger, Aravind Adiga, 260, No
+72347554683, The Inheritance of Loss, Kiran Desai, 230, Yes
+72347554684, The Guide, R.K. Narayan, 250, No
+72347554685, A Suitable Boy, Vikram Seth, 220, Yes
+72347554686, The Immortals of Meluha, Amish Tripathi, 200, No
+72347554687, The Lowland, Jhumpa Lahiri, 270, Yes
+72347554688, The Secret Dreamworld of a Shopaholic, Sophie Kinsella, 290, No
+72347554689, Interpreter of Maladies, Jhumpa Lahiri, 240, Yes
+72347554690, The Rozabal Line, Ashwin Sanghi, 310, No
+72347554691, Delhi: A Novel, Khushwant Singh, 280, Yes
