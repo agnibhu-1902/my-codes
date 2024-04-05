@@ -1,0 +1,104 @@
+#! /usr/local/Cellar/icarus-verilog/12.0/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/local/Cellar/icarus-verilog/12.0/lib/ivl/system.vpi";
+:vpi_module "/usr/local/Cellar/icarus-verilog/12.0/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/local/Cellar/icarus-verilog/12.0/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/local/Cellar/icarus-verilog/12.0/lib/ivl/v2005_math.vpi";
+:vpi_module "/usr/local/Cellar/icarus-verilog/12.0/lib/ivl/va_math.vpi";
+S_0x7fb4d5f05c80 .scope module, "main" "main" 2 8;
+ .timescale 0 0;
+v0x7fb4d5f165f0_0 .var "e", 0 0;
+v0x7fb4d5f166a0_0 .var "i", 0 0;
+v0x7fb4d5f16730_0 .var "s", 0 0;
+v0x7fb4d5f167e0_0 .net "y0", 0 0, L_0x7fb4d5f16b40;  1 drivers
+v0x7fb4d5f16890_0 .net "y1", 0 0, L_0x7fb4d5f16ce0;  1 drivers
+S_0x7fb4d5f05e00 .scope module, "DEMUX" "demux" 2 11, 2 1 0, S_0x7fb4d5f05c80;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "i";
+    .port_info 1 /INPUT 1 "e";
+    .port_info 2 /INPUT 1 "s";
+    .port_info 3 /OUTPUT 1 "y0";
+    .port_info 4 /OUTPUT 1 "y1";
+L_0x7fb4d5f16960 .functor NOT 1, v0x7fb4d5f16730_0, C4<0>, C4<0>, C4<0>;
+L_0x7fb4d5f16a30 .functor AND 1, v0x7fb4d5f165f0_0, L_0x7fb4d5f16960, C4<1>, C4<1>;
+L_0x7fb4d5f16b40 .functor AND 1, L_0x7fb4d5f16a30, v0x7fb4d5f166a0_0, C4<1>, C4<1>;
+L_0x7fb4d5f16c70 .functor AND 1, v0x7fb4d5f165f0_0, v0x7fb4d5f16730_0, C4<1>, C4<1>;
+L_0x7fb4d5f16ce0 .functor AND 1, L_0x7fb4d5f16c70, v0x7fb4d5f166a0_0, C4<1>, C4<1>;
+v0x7fb4d5f06020_0 .net *"_ivl_0", 0 0, L_0x7fb4d5f16960;  1 drivers
+v0x7fb4d5f160c0_0 .net *"_ivl_2", 0 0, L_0x7fb4d5f16a30;  1 drivers
+v0x7fb4d5f16160_0 .net *"_ivl_6", 0 0, L_0x7fb4d5f16c70;  1 drivers
+v0x7fb4d5f16210_0 .net "e", 0 0, v0x7fb4d5f165f0_0;  1 drivers
+v0x7fb4d5f162b0_0 .net "i", 0 0, v0x7fb4d5f166a0_0;  1 drivers
+v0x7fb4d5f16390_0 .net "s", 0 0, v0x7fb4d5f16730_0;  1 drivers
+v0x7fb4d5f16430_0 .net "y0", 0 0, L_0x7fb4d5f16b40;  alias, 1 drivers
+v0x7fb4d5f164d0_0 .net "y1", 0 0, L_0x7fb4d5f16ce0;  alias, 1 drivers
+    .scope S_0x7fb4d5f05c80;
+T_0 ;
+    %pushi/vec4 0, 0, 3;
+    %split/vec4 1;
+    %store/vec4 v0x7fb4d5f16730_0, 0, 1;
+    %split/vec4 1;
+    %store/vec4 v0x7fb4d5f165f0_0, 0, 1;
+    %store/vec4 v0x7fb4d5f166a0_0, 0, 1;
+    %end;
+    .thread T_0;
+    .scope S_0x7fb4d5f05c80;
+T_1 ;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb4d5f165f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb4d5f16730_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb4d5f166a0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb4d5f165f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb4d5f16730_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb4d5f166a0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb4d5f165f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb4d5f16730_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb4d5f166a0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb4d5f165f0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb4d5f16730_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb4d5f166a0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb4d5f165f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb4d5f16730_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb4d5f166a0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb4d5f165f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb4d5f16730_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb4d5f166a0_0, 0, 1;
+    %end;
+    .thread T_1;
+    .scope S_0x7fb4d5f05c80;
+T_2 ;
+    %vpi_call 2 30 "$monitor", "i = %b, e = %b, s = %b, y0 = %b, y1 = %b", v0x7fb4d5f166a0_0, v0x7fb4d5f165f0_0, v0x7fb4d5f16730_0, v0x7fb4d5f167e0_0, v0x7fb4d5f16890_0 {0 0 0};
+    %delay 70, 0;
+    %vpi_call 2 31 "$finish" {0 0 0};
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "1x2_demux.v";
